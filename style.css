@@ -1,0 +1,202 @@
+/* RESET CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+button,
+textarea {
+  font-size: 100%;
+  font: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* MAIN CSS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  max-height: 100vh;
+  background-color: #DFF6FF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 50vw;
+  height: fit-content;
+}
+
+ul.nav-pills {
+  gap: 20px;
+}
+
+button.nav-link {
+  padding: 15px 20px;
+  color: #06283D;
+  border-radius: 15px !important;
+}
+
+button.nav-link.active {
+  background-color: #47B5FF !important;
+}
+
+button.nav-link:hover {
+  color: #47B5FF;
+}
+
+.tab-pane {
+  padding: 50px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.tab-pane input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.tab-pane input:focus {
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.tab-pane button {
+  background-color: #47B5FF !important;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.tab-pane button:hover {
+  background-color: #256D85 !important;
+}
